@@ -10,11 +10,11 @@ const NavBar = () => {
     <Navbar>
       <Container>
         <Navbar.Brand href="/">Brands Here!!</Navbar.Brand>
-        <Navbar.Toggle>
+        <Navbar.Toggle  area-controls="responsive-navbar-nav" /> 
+          {/* <span></span>
           <span></span>
           <span></span>
-          <span></span>
-        </Navbar.Toggle>
+        </Navbar.Toggle> */}
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>

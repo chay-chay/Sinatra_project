@@ -1,0 +1,11 @@
+.footer-area {
+    margin-top: 100px;
+    padding: 150px ;
+    background: #baeef0;
+    background: -moz-linear-gradient(left,  #27bac4 0%, #baeef0 100%);
+    background: -webkit-linear-gradient(left,  #27bac4 0%,#baeef0 100%);
+    background: linear-gradient(to right,  #27bac4 0%,#baeef0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27bac4', endColorstr='#baeef0',GradientType=1 );
+    color:#fff;
+    position:relative;
+  }
