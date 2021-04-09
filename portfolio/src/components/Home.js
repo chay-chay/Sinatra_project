@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../App.css";
+import "./home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
@@ -16,8 +17,8 @@ const Home = () => {
                 </h1>
   
                 <h1 className="heading-name">
-                  I'M
-                  <strong className="main-name"> CHAYANIT MCCORMICK</strong>
+                  I'm
+                  <strong className="main-name"> Chayanit McCormick</strong>
                 </h1>
   
                 <div style={{ padding: 50, textAlign: "left" }}>
