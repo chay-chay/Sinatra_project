@@ -18,7 +18,7 @@ font-family: 'Satisfy', cursive;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 102px;
-    height: 600px;
+    height: 100%;
     width: 100%;
 }
 

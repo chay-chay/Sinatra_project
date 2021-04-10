@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <Navbar>
+    <Navbar collapseOnSelect expand="lg">
       <Container>
         <Navbar.Brand href="/">Brands Here!!</Navbar.Brand>
         <Navbar.Toggle  area-controls="responsive-navbar-nav" /> 
