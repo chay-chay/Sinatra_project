@@ -8,6 +8,23 @@ font-family: 'Satisfy', cursive;
     font-family: 'Satisfy', cursive;
 }
 
+/* #home{
+    height: 100%;
+
+}
+*/
+.home-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 102px;
+    height: 600px;
+    width: 100%;
+}
+
+.row-home{
+    height: 100%;
+} 
 
 h1 {
     font-size: 4rem;

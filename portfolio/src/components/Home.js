@@ -6,13 +6,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
     return(
-        <section>
-        <Container fluid className="home-section" id="home">
-         
-          <Container className="home-content">
-            <Row>
+      
+        <Container  id="home">
+            <Row className="row-home">
               <Col md={7} className="home-header">
-                <h1 style={{ padding: 100 }} className="heading">
+                <h1 style={{ padding: 100, textAlign: "center" }} className="heading">
                   Hello! 
                 </h1>
   
@@ -20,9 +18,9 @@ const Home = () => {
                   I'm Chayanit McCormick 
                 </h1>
   
-                <div style={{ padding: 50, textAlign: "left" }}>
+                {/* <div style={{ padding: 50, textAlign: "center" }}>
                 
-                </div>
+                </div> */}
               </Col>
   
               <Col md={5} style={{ paddingBottom: 20 }}>
@@ -30,8 +28,6 @@ const Home = () => {
               </Col>
             </Row>
           </Container>
-        </Container>
-      </section>
     )
 }
 
