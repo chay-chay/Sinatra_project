@@ -1,8 +1,22 @@
 import React from "react";
+import './project.css'
 
 const Projects = () => {
     return(
-        <h1>Project</h1>
+        <div className="work">          
+            <div className="card project">
+                project
+            </div>
+            <div className="card project">
+                project
+            </div>
+            <div className="card project">
+                project
+            </div>
+            <div className="card project">
+                project
+            </div>
+        </div>
     )
 }
 

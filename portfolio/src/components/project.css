@@ -1,0 +1,36 @@
+.project {
+  /* display: flex;
+    justify-content: space-between;
+    padding: 0 10% ; */
+  /* dixplay: flex; */
+  text-align: center;
+  background-color: #ffffff;
+  width: 300px;
+  display: inline-table;
+  padding: 0.5rem 3rem 0.6rem 3rem;
+  margin: 2em 4em 2em 4em;
+  border-radius: 8px;
+}
+
+.work {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  padding: 0 10%;
+}
+/* .card1{
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+.card2{
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+} */
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
