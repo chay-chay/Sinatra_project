@@ -8,8 +8,17 @@
   min-height: 100vh;
   border-radius: 10px;*/
   /* flex-direction: column;  */
-  background-color: #cae7e9; 
-  min-height: 100vh;
+  /* background-image: url(images/bg.png); */
+
+  /* background: rgb(227,121,135);
+background: linear-gradient(90deg, rgba(227,121,135,1) 0%, rgba(238,156,167,1) 50%, rgba(255,221,225,1) 100%); */
+ 
+ 
+}
+
+body{
+  /* background-image: url(images/bg.png) */
+  /* background-color:pink; */
 }
 
  @media (min-width: 800px) {
