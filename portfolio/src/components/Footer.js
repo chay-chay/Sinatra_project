@@ -7,10 +7,10 @@ import { FiMail } from "react-icons/fi";
 const Footer = () => (
   <div>
     <section>
-      <h1 className="contact-below">Contact Me!</h1>
-      <h3 className="contact-below">Hover over the circle below</h3>
-    </section>
-    <div className="footer">
+     <div className="footer_container">
+      {/* <h1 className="contact-below">Contact Me!</h1>
+      <h3 className="contact-below" style={{ marginBottom:'5rem' }}>Hover over the circle below</h3> */}
+      <div className="footer">
       <div id="button"></div>
       <div id="container">
         <div id="cont">
@@ -34,6 +34,9 @@ const Footer = () => (
         </div>
       </div>
     </div>
+    </div>
+    </section>
+    
   </div>
 );
 
