@@ -1,37 +1,18 @@
 #responsive-navbar-nav{
-    /* height: 50vh; */
-    background-color:antiquewhite;
-    /* top: 5vh; */
+    background-color: pink;
+    height:30px;
     width: 50%;
-    /* justify-content: center; */
     align-items: center;
-    /* text-align: center; */
-    /* position: absolute; */
-    right: 0;
-    /* display: flex; */
-    /* position: absolute;
-    right: 0px;
-    height: 90vh;
-    top: 10vh;
-    background-color: #dcf0c2;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    /* width: 50%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in; */
+    right: 0;  
 }
 
 .navbar{
-    background-color:antiquewhite;
+    background-color:pink;
+    padding: 0;
 }
 
 .navbar-brand{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: pink;
 }
-/* 
-.navbar-head{
-  
-} */
