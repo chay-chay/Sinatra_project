@@ -3,43 +3,56 @@
 .home-header h1 {
 font-family: 'Satisfy', cursive;
 text-align: center;
-
+color: rgb(183, 141, 223);
+font-size: 3rem;
+font-weight: 700;
+text-shadow: #095fab;
+background: linear-gradient(to right,#e185e4 10%, #15cdee 50%, #915cce 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 3.5s linear infinite;
+        display: block;
 }
-
-.home-header.main-name strong{
-    font-family: 'Satisfy', cursive;
-    text-align: center;
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
 }
 
 #home{
     height: 85vh;
-    /* display: flex; 
-    flex-direction: column;  */
-    /* align-items: stretch; */
-    /* background: rgb(91, 184, 168); */
-    /* background: linear-gradient(180deg, #008aff, #ff137d), url(../images/background.jpeg);  */
-
     background: rgb(119,161,211);
-    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg); 
-    /* background-image: url(../images/background.jpeg); */
+    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/bg.jpeg); 
+    background-position:no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-blend-mode: screen;    
-   
 }
 
+/* #wave{
+    position: absolute;
+    left:0;
+    bottom: 0;
+} */
+
+/* NEED TO SET HEIGHT FOR RESPONSIVE */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     #home{
         height: 85vh;
-        /* display: flex; 
-        flex-direction: column;  */
-        /* align-items: stretch; */
-        background: rgb(187,136,222);
-        /* background: linear-gradient(90deg, rgba(187,136,222,1) 0%, rgba(247,129,228,0.9542191876750701) 50%, rgba(240,81,181,1) 100% );  */
-        background-image: url(../images/background.jpeg) fixed;
-        background-blend-mode: lighten;    
-       
+        background: rgb(119,161,211);
+        background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg); 
+        background-blend-mode: screen;      
     }
-}
+} */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {...} */
 
@@ -70,6 +83,7 @@ text-align: center;
     justify-content: center;
     /* margin-top: 3rem; */
     height: 100%;
+
 } 
 
 h1 {
@@ -93,11 +107,19 @@ img:hover{
 } */
 
 img.chay {
-    height: 20rem;
+    height: 25rem;
     width: auto;
-    border-color: rgb(189, 96, 96);
+    /* border-color: rgb(100, 16, 179); */
     border-radius: 50%;
-    border-style: dashed;
     margin-top: 2rem;
-    
+    /* border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1; */
+
+	border: solid transparent;
+	background-origin: border-box;
+	/* background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box; */
+	box-shadow: 0 0 10px 10px rgba(241, 71, 122, 0.5);
+  
 }
+

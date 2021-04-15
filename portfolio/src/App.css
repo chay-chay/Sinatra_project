@@ -11,20 +11,18 @@
   /* flex-direction: column;  */
   /* background-image: url(images/bg.png); */
 
-  /* background: rgb(227,121,135);
-background: linear-gradient(90deg, rgba(227,121,135,1) 0%, rgba(238,156,167,1) 50%, rgba(255,221,225,1) 100%); */
- 
- 
+background: rgb(119,161,211);
+background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(./images/bg.jpeg); 
 }
 
 body{
-  /* background-image: url(images/bg.png) */
-  /* background-color:pink; */
+  background: rgb(119,161,211);
+    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(./images/background.jpeg); 
 }
 
- @media (min-width: 800px) {
+ /* @media (min-width: 800px) {
   .app {
     min-height: 100vh;
     align-items: center;
   } 
-} 
+}  */

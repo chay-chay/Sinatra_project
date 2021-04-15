@@ -13,10 +13,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
-  /* align-items: flex-start;*/
   align-content: flex-start; 
   padding: 0;
-  height: 85vh;
+  background: rgb(119,161,211);
+    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/bg.jpeg); 
+    background-position:no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: screen;    
+ 
 }
 
 .last-card{

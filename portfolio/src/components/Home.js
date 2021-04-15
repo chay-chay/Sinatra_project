@@ -12,20 +12,19 @@ const Home = () => {
         
         <div className="grid-area home-header">
           <h1
-            style={{ paddingBottom: 100, paddingTop: 50, textAlign: "center" }}
+            style={{ paddingBottom: 100, textAlign: "center" }}
             className="heading"
           >
             Hello!
           </h1>
 
-          <h1 className="heading-name">I'm Chayanit McCormick</h1>
+          <h1 className="heading-name">I'm  &nbsp;Chayanit &nbsp; McCormick</h1>
         </div>
-
 
           <img className="chay grid-area" alt="chay" src={chay} />
         
       </div>
-      <img src="/src/images/bg.png" />
+      
     </div>
 
   );

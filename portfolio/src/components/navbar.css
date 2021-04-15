@@ -1,6 +1,4 @@
 #responsive-navbar-nav{
-    /* background: rgb(119,161,211);
-    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg);  */
     height:30px;
     width: 50%;
     align-items: center;
@@ -16,6 +14,11 @@
 .navbar-brand{
     margin-top: 10px;
     margin-bottom: 10px;
-    /* background: rgb(119,161,211);
-    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg);  */
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(240, 44, 165);
+    font-size: larger;
+    font-weight: bolder;
 }
