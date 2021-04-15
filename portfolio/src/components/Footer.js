@@ -7,16 +7,12 @@ import { FiMail } from "react-icons/fi";
 const Footer = () => (
   <div>
     <section>
-     <div className="footer_container">
-      {/* <h1 className="contact-below">Contact Me!</h1>
-      <h3 className="contact-below" style={{ marginBottom:'5rem' }}>Hover over the circle below</h3> */}
-      <div className="footer">
-      <div id="button"></div>
-      <div id="container">
-        <div id="cont">
-          <div className="footer_center">
+      <div className="footer">  
             <h3 className="contact">
+              <div>
              Chayanit McCormick 2021 ©
+             </div>
+             <div>
               <a href="https://github.com/chay-chay/recipes-frontend">
                 <SiGithub />
               </a>
@@ -29,12 +25,9 @@ const Footer = () => (
               <a href="https://www.linkedin.com/in/chayanit-chaisri">
                 <SiLinkedin />
               </a>
+              </div>
             </h3>
           </div>
-        </div>
-      </div>
-    </div>
-    </div>
     </section>
     
   </div>

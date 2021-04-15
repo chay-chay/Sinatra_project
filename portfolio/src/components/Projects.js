@@ -35,7 +35,7 @@ const Projects = () => {
                 </div> 
             </div>
 
-            <div className="card project">
+            <div className="card project last-card">
                 <h6>Project Name: Cafe Verdict</h6>
                 <h6>Client side: Ruby on Rails</h6>
                 <h6>Server side: Ruby on Rails</h6>
