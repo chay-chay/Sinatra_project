@@ -12,7 +12,7 @@ const Home = () => {
         
         <div className="grid-area home-header">
           <h1
-            style={{ paddingBottom: 100, paddingTop: 100, textAlign: "center" }}
+            style={{ paddingBottom: 100, paddingTop: 50, textAlign: "center" }}
             className="heading"
           >
             Hello!

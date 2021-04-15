@@ -16,6 +16,7 @@
   /* align-items: flex-start;*/
   align-content: flex-start; 
   padding: 0;
+  height: 85vh;
 }
 
 .last-card{

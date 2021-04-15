@@ -1,5 +1,6 @@
 #responsive-navbar-nav{
-    background-color: pink;
+    /* background: rgb(119,161,211);
+    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg);  */
     height:30px;
     width: 50%;
     align-items: center;
@@ -7,12 +8,14 @@
 }
 
 .navbar{
-    background-color:pink;
+    background: rgb(119,161,211);
+    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg); 
     padding: 0;
 }
 
 .navbar-brand{
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: pink;
+    /* background: rgb(119,161,211);
+    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg);  */
 }

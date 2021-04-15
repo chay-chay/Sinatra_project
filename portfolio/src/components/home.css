@@ -12,19 +12,45 @@ text-align: center;
 }
 
 #home{
-    height: 100vh;
+    height: 85vh;
     /* display: flex; 
     flex-direction: column;  */
     /* align-items: stretch; */
-    background: rgb(187,136,222);
-    /* background: linear-gradient(90deg, rgba(187,136,222,1) 0%, rgba(247,129,228,0.9542191876750701) 50%, rgba(240,81,181,1) 100% );  */
-    background-image: url(../images/background.jpeg);
-    background-blend-mode: lighten;
-    
-    
+    /* background: rgb(91, 184, 168); */
+    /* background: linear-gradient(180deg, #008aff, #ff137d), url(../images/background.jpeg);  */
+
+    background: rgb(119,161,211);
+    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg); 
+    /* background-image: url(../images/background.jpeg); */
+    background-blend-mode: screen;    
    
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #home{
+        height: 85vh;
+        /* display: flex; 
+        flex-direction: column;  */
+        /* align-items: stretch; */
+        background: rgb(187,136,222);
+        /* background: linear-gradient(90deg, rgba(187,136,222,1) 0%, rgba(247,129,228,0.9542191876750701) 50%, rgba(240,81,181,1) 100% );  */
+        background-image: url(../images/background.jpeg) fixed;
+        background-blend-mode: lighten;    
+       
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
 /* .home-header{
     display: flex;
     flex-direction: column;
