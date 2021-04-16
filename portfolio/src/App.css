@@ -11,13 +11,13 @@
   /* flex-direction: column;  */
   /* background-image: url(images/bg.png); */
 
-background: rgb(119,161,211);
-background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(./images/bg.jpeg); 
+  background-color: #B5FFFC;
+  background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%);
 }
 
 body{
-  background: rgb(119,161,211);
-    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(./images/background.jpeg); 
+  background-color: #B5FFFC;
+  background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%)
 }
 
  /* @media (min-width: 800px) {

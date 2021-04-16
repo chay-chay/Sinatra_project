@@ -10,16 +10,16 @@ section {
   flex-direction: column;
   height: 6rem;
   width: 100%;
-  background: rgb(119,161,211);
-    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg); 
-  color: white;
+  background-color: #B5FFFC;
+  background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/background.jpeg); 
+  color: rgb(240, 85, 150);
   text-align: center;
   align-items: center;
   padding-top: 1rem;
 }
 
 a {
-  color: rgb(252, 252, 252);
+  color: rgb(240, 85, 150);
   margin: 1.5rem;
   font-weight: 500;
 }

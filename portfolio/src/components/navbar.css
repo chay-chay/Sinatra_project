@@ -6,19 +6,20 @@
 }
 
 .navbar{
-    background: rgb(119,161,211);
-    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg); 
+    background-color: #B5FFFC;
+    background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/background.jpeg); 
     padding: 0;
 }
 
 .navbar-brand{
     margin-top: 10px;
     margin-bottom: 10px;
-
+    background:rgba(255, 255, 255, 0);
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: rgb(240, 44, 165);
+    /* color: rgb(245, 113, 131); */
+    color: rgb(240, 85, 150);
     font-size: larger;
     font-weight: bolder;
 }

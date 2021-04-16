@@ -26,6 +26,7 @@ const Footer = () => (
                 <SiLinkedin />
               </a>
               </div>
+              
             </h3>
           </div>
     </section>

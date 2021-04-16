@@ -1,7 +1,7 @@
 #about{
     height: 85vh;
-    background: rgb(119,161,211);
-    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/bg.jpeg); 
+    background-color: #B5FFFC;
+background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/bg.jpeg); 
     background-position:center center fixed; 
     background-repeat: no-repeat;
     -webkit-background-size: cover;

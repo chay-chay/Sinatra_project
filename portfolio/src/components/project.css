@@ -15,8 +15,8 @@
   justify-content:center;
   align-content: flex-start; 
   padding: 0;
-  background: rgb(119,161,211);
-    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/bg.jpeg); 
+  background-color: #B5FFFC;
+background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/bg.jpeg); 
     background-position:no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -42,21 +42,20 @@ h6{
 .btn {
     margin: 1rem 1rem; 
     -webkit-appearance: none;
-    border: 6px solid rgba(221, 189, 189, 0.45);
+    border: 6px solid rgba(216, 205, 205, 0.45);
     border-radius: 50px;
-    padding: 1em 1.5em;
+    padding: 0.5em 1.5em;
     background-repeat: no-repeat;
     background-size: 100%;
     background-clip: padding-box;
     position: relative;
-    color: rgb(141, 136, 136);
+    color: rgb(223, 101, 162);
     cursor: pointer;
   }
   .btn:before {
     content: "";
     width: 100%;
     height:100%;
-   
     top: 5px;
     left: 5px;
     border-radius: 50px;

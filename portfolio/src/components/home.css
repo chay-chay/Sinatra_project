@@ -6,8 +6,7 @@ text-align: center;
 color: rgb(183, 141, 223);
 font-size: 3rem;
 font-weight: 700;
-text-shadow: #095fab;
-background: linear-gradient(to right,#e185e4 10%, #15cdee 50%, #915cce 60%);
+background: linear-gradient(to left,#bd8bf5 20%,  #5cdef5  50%, #f169ad 50%);
 		background-size: auto auto;
 		background-clip: border-box;
 		background-size: 200% auto;
@@ -27,8 +26,8 @@ background: linear-gradient(to right,#e185e4 10%, #15cdee 50%, #915cce 60%);
 
 #home{
     height: 85vh;
-    background: rgb(119,161,211);
-    background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/bg.jpeg); 
+    background-color: #B5FFFC;
+    background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/bg.jpeg); 
     background-position:no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -83,7 +82,7 @@ background: linear-gradient(to right,#e185e4 10%, #15cdee 50%, #915cce 60%);
     justify-content: center;
     /* margin-top: 3rem; */
     height: 100%;
-
+   
 } 
 
 h1 {
@@ -93,12 +92,19 @@ h1 {
 .grid-area{
     margin-left: 4rem;
     margin-right: 3rem;
+    margin-bottom: 4rem;
 }
 
 img:hover{
-    opacity: .5;
+    /* opacity: .5; */
     transition: .0s;
+    animation: rotate 1.2s linear reverse infinite;
+    background: #f5ceeba4;
+  
 }
+
+
+
 /* @media only screen and (max-width: 767px){
     .home-header{
         padding: 30px;
@@ -119,7 +125,7 @@ img.chay {
 	/* background-clip: content-box, border-box;
 	background-size: cover;
 	box-sizing: border-box; */
-	box-shadow: 0 0 10px 10px rgba(241, 71, 122, 0.5);
+	box-shadow: 0 0 10px 10px rgba(245, 113, 164, 0.5);
   
 }
 
