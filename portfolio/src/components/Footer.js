@@ -5,9 +5,7 @@ import { SiGithub, SiYoutube, SiLinkedin } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
 
 const Footer = () => (
-  <div>
-    <section>
-      <div className="footer">  
+    <section className="footer">
             <h3 className="contact">
               <div>
              Chayanit McCormick 2021 ©
@@ -28,10 +26,7 @@ const Footer = () => (
               </div>
               
             </h3>
-          </div>
     </section>
-    
-  </div>
 );
 
 export default Footer;

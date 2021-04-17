@@ -1,24 +1,15 @@
 .app{
   padding: 0;
   margin: 0;
-
-  /* display: flex; */
-  /* margin: 0 auto;
-  max-width: 1280px;
-  padding: 0 15px;
-  min-height: 100vh;
-  border-radius: 10px;*/
-  /* flex-direction: column;  */
-  /* background-image: url(images/bg.png); */
-
+  position: relative;
   background-color: #B5FFFC;
   background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%);
 }
 
-body{
+/* body{
   background-color: #B5FFFC;
   background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%)
-}
+} */
 
  /* @media (min-width: 800px) {
   .app {

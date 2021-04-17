@@ -7,11 +7,11 @@ color: rgb(183, 141, 223);
 font-size: 3rem;
 font-weight: 700;
 background: linear-gradient(to left,#bd8bf5 20%,  #5cdef5  50%, #f169ad 50%);
-		background-size: auto auto;
-		background-clip: border-box;
+		/* background-size: auto auto; */
+		background-clip: border-box; 
 		background-size: 200% auto;
 		color: #fff;
-		background-clip: text;
+		/* background-clip: text; */
 		text-fill-color: transparent;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -30,15 +30,20 @@ background: linear-gradient(to left,#bd8bf5 20%,  #5cdef5  50%, #f169ad 50%);
 }
 
 #home{
-    height: 85vh;
+    height: calc(100vh - 70px);
     background-color: #B5FFFC;
-    background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/bg.jpeg); 
-    background-position:no-repeat center center fixed; 
+    background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/bg.jpeg);
+    background-blend-mode: screen;   
+    /* background-position:no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    background-blend-mode: screen;    
+    
 }
 
 /* #wave{
@@ -118,8 +123,7 @@ img:hover{
 } */
 
 img.chay {
-    height: 25rem;
-    width: auto;
+    width: 30%;
     /* border-color: rgb(100, 16, 179); */
     border-radius: 50%;
     margin-top: 2rem;
