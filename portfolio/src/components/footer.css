@@ -11,14 +11,14 @@ section {
   height: 6rem;
   background-color: #B5FFFC;
   background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/background.jpeg); 
-  color: rgb(240, 85, 150);
+  color: rgb(201, 98, 248);
   text-align: center;
   align-items: center;
   padding-top: 1rem;
 }
 
 a {
-  color: rgb(240, 85, 150);
+  color: rgb(201, 98, 248);
   margin: 1.5rem;
   font-weight: 500;
 }

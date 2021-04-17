@@ -68,11 +68,11 @@ h6 {
 }
 
 .btn {
-  background-image: linear-gradient(90deg, #9be8ee, #3bd1d3);
+  background-image: linear-gradient(90deg, #FFDEE9, #B5FFFC);
 }
 .btn:before {
-  background-image: linear-gradient(90deg, #9be8ee, transparent);
+  background-image: linear-gradient(90deg, #FFDEE9, transparent);
 }
 .btn:after {
-  background-image: linear-gradient(90deg, transparent, #3bd1d3);
+  background-image: linear-gradient(90deg, transparent, #B5FFFC);
 }
