@@ -9,6 +9,7 @@
     background-color: #B5FFFC;
     background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/background.jpeg); 
     padding: 0;
+    /* width: 100%; */
 }
 
 .navbar-brand{

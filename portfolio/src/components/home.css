@@ -34,11 +34,6 @@ background: linear-gradient(to left,#bd8bf5 20%,  #5cdef5  50%, #f169ad 50%);
     background-color: #B5FFFC;
     background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/bg.jpeg);
     background-blend-mode: screen;   
-    /* background-position:no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -52,35 +47,6 @@ background: linear-gradient(to left,#bd8bf5 20%,  #5cdef5  50%, #f169ad 50%);
     bottom: 0;
 } */
 
-/* NEED TO SET HEIGHT FOR RESPONSIVE */
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-    #home{
-        height: 85vh;
-        background: rgb(119,161,211);
-        background: linear-gradient(90deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 50%, rgba(233,136,181,1) 100%), url(../images/background.jpeg); 
-        background-blend-mode: screen;      
-    }
-} */
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {...} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {...} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
-/* .home-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 102px;
-    width: 100%;
-    scroll-behavior: none;
-} */
 
 .row-home{
     display: flex;
