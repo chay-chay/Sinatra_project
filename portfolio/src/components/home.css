@@ -24,6 +24,11 @@ background: linear-gradient(to left,#bd8bf5 20%,  #5cdef5  50%, #f169ad 50%);
 	}
 }
 
+.heading-name{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 #home{
     height: 85vh;
     background-color: #B5FFFC;

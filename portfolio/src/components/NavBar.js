@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import "./navbar.css"
-import logo from "../images/chay-logo3.png"
+import logo from "../images/chay-logo2.png"
 
 const NavBar = () => {
   return (

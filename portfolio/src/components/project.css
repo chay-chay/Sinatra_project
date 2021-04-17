@@ -9,6 +9,7 @@
 }
 
 .work {
+    height: 85vh;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +17,7 @@
   align-content: flex-start; 
   padding: 0;
   background-color: #B5FFFC;
-background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/bg.jpeg); 
+    background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%); 
     background-position:no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
