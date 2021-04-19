@@ -53,7 +53,7 @@ const Projects = () => {
         <h6>Project Name: Cafe Verdict</h6>
         <h6>Client side: Ruby on Rails</h6>
         <h6>Server side: Ruby on Rails</h6>
-        <h6>Description: </h6>
+        <h6>Description: Cafe Verdict is an application that allows users to rate cafes base upon their experiences and perceptions of cafes they have visited. Before you check out or give reviews, you have to sign up and login to access the program.</h6>
         <a
           href="https://cafe-verdict.herokuapp.com/"
           target="_blank"

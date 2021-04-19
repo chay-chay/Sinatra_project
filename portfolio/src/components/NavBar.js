@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import "./navbar.css"
 import logo from "../images/chay-logo5.png"
 
+
 const NavBar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="navbar-head sticky-top">
@@ -18,20 +19,20 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/">
-                <i className="fas fa-home"></i> Home
+              <Nav.Link as={Link} to="/" >
+                 Home
               </Nav.Link>
             </Nav.Item>
             
             <Nav.Item>
-              <Nav.Link as={Link} to="/project">
-                <i className="fab fa-codepen"></i> Projects
+              <Nav.Link as={Link} to="/project" >
+                Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/about">
-                <i className="far fa-user"></i> About
+                About
               </Nav.Link>
             </Nav.Item>
           </Nav>
