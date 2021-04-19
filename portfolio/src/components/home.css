@@ -67,7 +67,7 @@ background: linear-gradient(to left,#bd8bf5 20%,  #5cdef5  50%, #f169ad 50%);
     margin-bottom: 4rem;
 }
 
-img:hover{
+img.chay:hover{
     /* opacity: .5; */
     transition: .0s;
     animation: rotate 1.2s linear reverse infinite;

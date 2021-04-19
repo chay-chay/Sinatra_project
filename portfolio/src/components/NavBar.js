@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import "./navbar.css"
 import logo from "../images/chay-logo5.png"
+import { FcHome, FcBusinesswoman, FcVideoProjector} from 'react-icons/fc';
 
 
 const NavBar = () => {
@@ -20,19 +21,19 @@ const NavBar = () => {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" >
-                 Home
+                 <FcHome /> Home
               </Nav.Link>
             </Nav.Item>
             
             <Nav.Item>
               <Nav.Link as={Link} to="/project" >
-                Projects
+               <FcVideoProjector />  Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/about">
-                About
+                <FcBusinesswoman /> About
               </Nav.Link>
             </Nav.Item>
           </Nav>
