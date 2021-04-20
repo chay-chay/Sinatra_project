@@ -1,17 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 
 
 * {
   margin: 0;
-  font-family: 'Kiwi Maru', serif;
+  font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 footer {
-  font-family: 'Kiwi Maru', serif;
+  font-family: 'Nunito', sans-serif;
 }
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

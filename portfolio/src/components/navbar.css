@@ -3,6 +3,7 @@
     width: 50%;
     align-items: center;
     right: 0;  
+     
 }
 
 .navbar{
@@ -44,6 +45,5 @@
     opacity: 1;
     font-size: larger;
     font-weight: 900;
-    /* box-shadow: 0 5px rgb(243, 144, 144); */
     transform: translateY(-2px);
 }
