@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -10,6 +10,8 @@ import { FcHome, FcBusinesswoman, FcVideoProjector} from 'react-icons/fc';
 
 
 const NavBar = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false)
+  
   return (
     <Navbar collapseOnSelect expand="lg" className="navbar-head sticky-top">
       <Container>

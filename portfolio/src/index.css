@@ -5,16 +5,11 @@
 
 
 * {
+  color: rgb(128, 125, 129);
   margin: 0;
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-footer {
-  font-family: 'Nunito', sans-serif;
-}
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+

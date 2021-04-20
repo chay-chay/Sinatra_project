@@ -41,8 +41,7 @@ const Projects = () => {
         <h6>Server side: Ruby on Rails</h6>
         <h6>
           Description: Pair It Up! is a matching game where players compete to
-          see if they can make matches in the fewest number of moves. When pairs
-          are created, they remain flipped. When all the cards are flipped, the
+          see if they can make matches in the fewest number of moves. When all the cards are flipped, the
           game is over. The player has the option of recording their score. If
           their score is in the top ten, it will be shown on the board at the
           end of the game.{" "}

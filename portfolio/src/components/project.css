@@ -43,8 +43,13 @@ h6 {
   background-size: 100%;
   background-clip: padding-box;
   position: relative;
-  color: rgb(223, 101, 162);
+  color: rgb(182, 107, 231);
   cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(245, 113, 175);
+    font-weight: bold;
 }
 .btn:before {
   content: '';
@@ -68,11 +73,6 @@ h6 {
 }
 
 .btn {
-  background-image: linear-gradient(90deg, #FFDEE9, #B5FFFC);
-}
-.btn:before {
-  background-image: linear-gradient(90deg, #FFDEE9, transparent);
-}
-.btn:after {
-  background-image: linear-gradient(90deg, transparent, #B5FFFC);
+    background-color: #B5FFFC;
+    background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%)
 }
