@@ -20,6 +20,20 @@
   background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%);
 }
 
+@media only screen and (min-width: 992px){
+    .work {
+        min-height: calc(100vh - 95px);
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        padding: 0;
+        background-color: #b5fffc;
+        background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%);
+      }
+}
+
 .last-card {
   margin-bottom: 8rem;
 }

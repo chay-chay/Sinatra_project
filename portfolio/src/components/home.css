@@ -71,12 +71,19 @@ img.chay:hover {
   background: #f5ceeba4;
 }
 
-/* @media only screen and (max-width: 767px){
-    .home-header{
-        padding: 30px;
-        margin-bottom: 50px;
+@media only screen and (min-width: 992px){
+    #home{
+        height: calc(100vh - 95px);
+  background-color: #b5fffc;
+  background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%),
+    url(../images/bg.jpeg);
+  background-blend-mode: screen;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
     }
-} */
+}
 
 img.chay {
   width: 30%;
