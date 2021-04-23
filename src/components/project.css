@@ -10,11 +10,13 @@
 
 .work {
   min-height: calc(100vh - 70px);
-  text-align: center;
+  /* flex-direction:row; */
+  /* text-align: center; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-content: flex-start;
+  align-self: flex-end;
+  /* justify-content: center; */
+  /* align-content: flex-start; */
   padding: 0;
   background-color: #b5fffc;
   background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%);
