@@ -14,7 +14,7 @@ const About = () => {
                 <img src="https://img.icons8.com/nolan/64/js.png" alt="js" className="app-pic" />
                 <img src="https://img.icons8.com/nolan/64/json.png" alt="json" className="app-pic" />
                 <img src="https://img.icons8.com/nolan/64/react-native.png" alt="react" className="app-pic" />
-                
+                <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
                 </div>
             </div>
             
