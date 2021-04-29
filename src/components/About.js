@@ -11,10 +11,11 @@ const About = () => {
                 <div className="my-app">
                 <img src="https://img.icons8.com/nolan/64/html-5.png" alt="html" className="app-pic" />
                 <img src="https://img.icons8.com/nolan/64/css-filetype.png" alt="css" className="app-pic" />
+                <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="css" className="app-pic" />
                 <img src="https://img.icons8.com/nolan/64/js.png" alt="js" className="app-pic" />
                 <img src="https://img.icons8.com/nolan/64/json.png" alt="json" className="app-pic" />
                 <img src="https://img.icons8.com/nolan/64/react-native.png" alt="react" className="app-pic" />
-                <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+                
                 </div>
             </div>
             
